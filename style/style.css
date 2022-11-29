@@ -15,7 +15,7 @@ p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-size:14px;
-  color: #000000;
+  color: 1F1F1F;
 }
 .prez {
   position: absolute;
@@ -27,8 +27,8 @@ p {
   position: absolute;
   width: 100%;
   height: 50px;
-  backdrop-filter: blur(10px);
-  border-bottom: solid 2px #ffffff ;
+  background-color: #FCFCFC;
+  box-shadow: 0px 2px 20px #1F1F1F;
 }
 
 #background_video {
@@ -46,7 +46,7 @@ p {
   position:relative;
   text-align:center;
   background: linear-gradient(60deg, #7b2cbf 0%, #7b2cbf 100%);
-  color:white;
+  color:#FCFCFC;
 }
 
 .main_header {
@@ -55,14 +55,14 @@ p {
 }
 
 .logo p {
-  font-size: 20px;
-  color: white;
+  font-size: 25px;
+  color: #1F1F1F;
   padding: 0 10px;
   margin: 0;
 }
 
 .logo :hover {
-  background-color: #000000;
+  background-color: #1F1F1F;
 }
 
 /* lANDING PAGE */
@@ -94,7 +94,7 @@ p {
   position:relative;
   height:20vh;
   text-align:center;
-  background-color: white;
+  background-color: #FCFCFC;
 }
 
 /* lANDING PAGE Animation */
@@ -210,14 +210,14 @@ p {
 	font-size: 13px;
 	font-weight: normal;
 	color: #7f8c8d;
-	color: #ffffff;
+	color: #FCFCFC;
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
 .scroll-btn > *.active {
-	color: #ffffff;
+	color: #FCFCFC;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
@@ -234,7 +234,7 @@ p {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 3px solid white;
+	border: 3px solid #FCFCFC;
 	border-radius: 23px;
 }
 .scroll-btn .mouse > * {
@@ -245,7 +245,7 @@ p {
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
-	background: white;
+	background: #FCFCFC;
 	border-radius: 50%;
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
